@@ -40,6 +40,37 @@
         font-size: 20px;
     }
 
+    /* menu starts */
+    nav {
+        width: 335px;
+        height: 64px;
+        margin: 18px 20px 0 20px;
+        position: relative;
+    }
+
+    .menu .logo {
+        display: flex;
+        align-items: center;
+        gap: 9.95px;
+    }
+    .hamburger {
+        visibility: visible;
+        cursor: pointer;
+    }
+    .menu .logo h1 {
+        font-size: 21.543px;
+    }
+
+    .menu .logo h1 span {
+        font-size: 21.543px;
+    }
+
+    .menu>ul {
+        position: absolute;
+        visibility: hidden;
+        flex-direction: column;
+    }
+
     /* explore starts */
     .explore {
         width: 335px;
