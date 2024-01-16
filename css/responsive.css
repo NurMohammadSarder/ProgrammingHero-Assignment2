@@ -53,10 +53,12 @@
         align-items: center;
         gap: 9.95px;
     }
+
     .hamburger {
         visibility: visible;
         cursor: pointer;
     }
+
     .menu .logo h1 {
         font-size: 21.543px;
     }
@@ -207,6 +209,70 @@
         width: 271px;
         padding-top: 16px;
     }
+
+    /* discount  */
+    .discount>p {
+        width: 309px;
+    }
+
+    .discount-parts {
+        margin-top: 16px;
+        gap: 16px;
+    }
+
+    .discount-part {
+        width: 335px;
+        height: 500px;
+        padding: 131px 16px 16px 16px;
+    }
+
+    .discount-part2 {
+        padding: 131px 16px 16px 16px;
+    }
+
+    .discount-card {
+        width: 303px;
+        height: 351px;
+        padding: 25px;
+    }
+
+    .discount-details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .discount-details .discount-detail {
+        display: flex;
+        gap: 8px;
+    }
+
+    .discount-details .discount-detail i {
+        color: rgba(255, 84, 0, 1);
+        font-size: 24px;
+    }
+
+    .discount-card h2 {
+        font-size: 20px;
+        padding-top: 18px;
+    }
+
+    .discount-card>p {
+        width: 254px;
+        padding-top: 8px;
+    }
+
+    .discount-card .price {
+        font-size: 16px;
+    }
+
+    .discount-card .btn-book {
+        width: 130px;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
 
     /* newsletter */
     .newsletter {
