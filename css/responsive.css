@@ -136,12 +136,156 @@
     }
 
     .place5 {
-        background-image: url("../images/Rectangle\ 9.2.png");
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 9.2.png"), lightgray 50% / cover no-repeat;
     }
+
     .place p {
         font-size: 20px;
         font-weight: 700;
         padding: 0;
     }
 
+    /* Choose */
+    .choose {
+        text-align: center;
+    }
+
+    .choose>p {
+        width: 309px;
+        margin: 0 auto;
+    }
+
+    .choose-card {
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    .choose-card .card {
+        padding: 32px;
+    }
+
+    .choose-card .card h3 {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: normal;
+        padding-top: 16px;
+
+    }
+
+    .choose-card .card p {
+        width: 271px;
+        padding-top: 16px;
+    }
+
+    /* newsletter */
+    .newsletter {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin-bottom: 24px;
+    }
+
+    .newsletter-text {
+        width: 335px;
+        height: 353px;
+        padding: 23px 24px 23px 23px;
+    }
+
+    .newsletter-text h3 {
+        font-size: 20px;
+    }
+
+    .newsletter-text p {
+        width: 270px;
+        font-size: 14px;
+        line-height: 24px;
+        /* 171.429% */
+        padding-top: 8px;
+    }
+
+    hr {
+        margin: 16px 0 16px 0;
+    }
+
+    .newsletter input {
+        width: 288px;
+    }
+
+    .newsletter-text input[type='placeholder'] {
+        font-size: 16px;
+    }
+
+    .newsletter-text input[type='email'] {
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+
+    .newsletter-text button {
+        width: 288px;
+        height: 52px;
+    }
+
+    .newsletter-img {
+        width: 335px;
+        height: 300px;
+        position: relative;
+    }
+
+    .newsletter-img img {
+        width: 335px;
+        height: 300px;
+    }
+
+    .save {
+        width: 214.023px;
+        height: 79.268px;
+        transform: rotate(-19.628deg);
+        border-radius: 10.569px;
+        right: 13.1px;
+        bottom: 32.86px;
+    }
+
+    .save p {
+        font-size: 15.854px;
+    }
+
+    .save span {
+        font-size: 21.138px;
+    }
+
+
+    /* footer starts */
+    #footer {
+        width: 375px;
+        height: 309px;
+        padding-bottom: 31.28px;
+    }
+
+    .footer .logo {
+        gap: 9.95px;
+        padding-top: 33.2px;
+    }
+
+    .footer .logo h2 {
+        font-size: 21.543px;
+    }
+
+    .footer .logo h2 span {
+        font-size: 21.543px;
+    }
+
+    .footer p {
+        width: 287px;
+        padding-bottom: 16px;
+    }
+
+
+    .footer hr {
+        width: 335px;
+        margin: 24px auto;
+    }
+
+    .footer small {
+        font-size: 14px;
+    }
 }
