@@ -56,6 +56,7 @@ footer {
     line-height: normal;
     border: none;
     margin-top: 32px;
+    cursor: pointer;
 }
 
 .left-head {
@@ -106,20 +107,68 @@ p,
 
 /* menu starts */
 nav {
+    width: 1171px;
     display: flex;
     align-items: center;
+    margin: 50px auto auto auto;
     justify-content: space-between;
+}
+
+.menu .logo {
+    display: flex;
+    align-items: center;
+    gap: 16.63px;
+}
+.hamburger {
+    visibility: hidden;
+}
+.menu .logo h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.menu .logo h1 span {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .menu>ul {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 44px;
+}
+
+.menu>ul>li:first-child {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.menu>ul>li {
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 /* explore starts */
 .explore {
-    margin-top: 50px;
+    margin-top: 48px;
     background-image: linear-gradient(to bottom, rgba(19, 19, 24, .8), rgba(19, 19, 24, 0)), url("../images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     background-position: center;
@@ -210,6 +259,7 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 8px;
+    cursor: pointer;
 }
 
 /* tour starts  */
