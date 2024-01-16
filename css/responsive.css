@@ -273,7 +273,7 @@
         margin-bottom: 24px;
     }
 
-    .discount button {
+    .discount .packages {
         visibility: hidden;
         position: absolute;
     }
