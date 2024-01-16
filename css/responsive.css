@@ -136,12 +136,45 @@
     }
 
     .place5 {
-        background-image: url("../images/Rectangle\ 9.2.png");
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 9.2.png"), lightgray 50% / cover no-repeat;
     }
+
     .place p {
         font-size: 20px;
         font-weight: 700;
         padding: 0;
+    }
+
+    /* Choose */
+    .choose {
+        text-align: center;
+    }
+
+    .choose>p {
+        width: 309px;
+        margin: 0 auto;
+    }
+
+    .choose-card {
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    .choose-card .card {
+        padding: 32px;
+    }
+
+    .choose-card .card h3 {
+        font-size: 20px;
+        font-weight: 800;
+        line-height: normal;
+        padding-top: 16px;
+
+    }
+
+    .choose-card .card p {
+        width: 271px;
+        padding-top: 16px;
     }
 
 }

@@ -267,7 +267,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    
+
 }
 
 .place {
@@ -330,4 +330,62 @@ nav {
     font-weight: 800;
     line-height: normal;
     padding: 0;
+}
+
+/* Choose */
+.choose {
+    text-align: center;
+}
+
+.choose>p {
+    width: 643px;
+    margin: 0 auto;
+}
+
+.choose-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+
+}
+
+.choose-card .card {
+    width: 573px;
+    height: 284px;
+    text-align: left;
+    padding: 32px;
+}
+
+.choose-card .card h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 32px;
+}
+.choose-card .card p {
+    width: 486px;
+    padding-top: 16px;
+}
+
+.choose-card .card1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.choose-card .card2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.choose-card .card3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
 }
