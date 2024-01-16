@@ -53,10 +53,12 @@
         align-items: center;
         gap: 9.95px;
     }
+
     .hamburger {
         visibility: visible;
         cursor: pointer;
     }
+
     .menu .logo h1 {
         font-size: 21.543px;
     }
@@ -207,6 +209,130 @@
         width: 271px;
         padding-top: 16px;
     }
+
+    /* discount  */
+    .discount>p {
+        width: 309px;
+    }
+
+    .discount-parts {
+        margin-top: 16px;
+        gap: 16px;
+    }
+
+    .discount-part {
+        width: 335px;
+        height: 500px;
+        padding: 131px 16px 16px 16px;
+    }
+
+    .discount-part2 {
+        padding: 131px 16px 16px 16px;
+    }
+
+    .discount-card {
+        width: 303px;
+        height: 351px;
+        padding: 25px;
+    }
+
+    .discount-details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .discount-details .discount-detail {
+        display: flex;
+        gap: 8px;
+    }
+
+    .discount-details .discount-detail i {
+        color: rgba(255, 84, 0, 1);
+        font-size: 24px;
+    }
+
+    .discount-card h2 {
+        font-size: 20px;
+        padding-top: 18px;
+    }
+
+    .discount-card>p {
+        width: 254px;
+        padding-top: 8px;
+    }
+
+    .discount-card .price {
+        font-size: 16px;
+    }
+
+    .discount-card .btn-book {
+        width: 130px;
+        height: 40px;
+        font-size: 18px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    .discount button {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    /* place  */
+  /*  .place {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    .place .place-text {
+        width: 532px;
+        height: 424px;
+    }
+
+    .place .place-text h2 {
+        width: 448px;
+        color: #131318;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 60px;
+
+    }
+
+    .place .place-text p {
+        width: 532px;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        padding-top: 24px;
+        text-align: left;
+    }
+
+    .place-text ul li {
+        list-style: disc;
+        width: 525px;
+        color: #131318;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        margin-left: 20px;
+        padding-top: 16px;
+    }
+
+    .place .place-video video {
+        width: 610px;
+        height: 424px;
+        border-radius: 16px;
+    }
+
+*/
 
     /* newsletter */
     .newsletter {
