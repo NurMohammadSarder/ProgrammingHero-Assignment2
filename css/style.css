@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+footer {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.container {
+    border-radius: 16px;
+    width: 1170px;
+    margin: 135px auto 135px auto;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+h2 {}
+
+/* all common css */
+
+/* menu starts */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* explore starts */
+.explore {
+    background-image: linear-gradient(to bottom, rgba(19, 19, 24, .8), rgba(19, 19, 24, 0)), url("../images/Group\ 13\ \(1\)\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore h2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.explore p {
+    width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+.explore-option {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.explore-option input {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+
+.explore-option input {
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 16px;
+}
+.explore-option input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.icon[type='text'] {
+    background-image: url(../images/input.svg);
+    background-position: 135px 14px;
+    background-repeat: no-repeat;
+}
+.btn-search {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
