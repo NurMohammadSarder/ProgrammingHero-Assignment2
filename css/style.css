@@ -31,7 +31,7 @@ footer {
 .container {
     border-radius: 16px;
     width: 1170px;
-    margin: 135px auto 135px auto;
+    margin: 100px auto auto auto;
     -webkit-border-radius: 16px;
     -moz-border-radius: 16px;
     -ms-border-radius: 16px;
@@ -42,9 +42,65 @@ footer {
     display: none;
 }
 
+.btn-primary {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border: none;
+    margin-top: 32px;
+}
 
+.left-head {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: left;
+}
 
-h2 {}
+p,
+.p1 {
+    padding-top: 24px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.p2 {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.title {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
 
 /* all common css */
 
@@ -63,6 +119,7 @@ nav {
 
 /* explore starts */
 .explore {
+    margin-top: 50px;
     background-image: linear-gradient(to bottom, rgba(19, 19, 24, .8), rgba(19, 19, 24, 0)), url("../images/Group\ 13\ \(1\)\ \(1\).png");
     background-repeat: no-repeat;
     background-position: center;
@@ -124,6 +181,7 @@ nav {
     line-height: normal;
     padding-left: 16px;
 }
+
 .explore-option input::placeholder {
     color: rgba(19, 19, 24, 0.50);
     font-family: Mulish;
@@ -132,11 +190,13 @@ nav {
     font-weight: 400;
     line-height: normal;
 }
+
 .icon[type='text'] {
     background-image: url(../images/input.svg);
     background-position: 135px 14px;
     background-repeat: no-repeat;
 }
+
 .btn-search {
     width: 174px;
     height: 52px;
@@ -154,4 +214,120 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 8px;
+}
+
+/* tour starts  */
+.tour {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tour-text {
+    width: 577px;
+}
+
+.list {
+    padding-top: 24px;
+}
+
+.list ul li:first-child {
+    padding-top: 0;
+}
+
+.list ul li {
+    list-style: disc;
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    margin-left: 20px;
+    padding-top: 16px;
+}
+
+.tour-img img {
+    width: 100%;
+}
+
+/* destination starts */
+.destination {
+    text-align: center;
+}
+
+.destination>p {
+    text-align: center;
+    width: 643px;
+    margin: 0 auto;
+}
+
+.destination-sec {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    
+}
+
+.place {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.place1 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(../images/Rectangle\ 5.png), lightgray 50% / cover no-repeat;
+    /* background-image: url("../images/Rectangle\ 5.png"); */
+    width: 573px;
+    height: 300px;
+}
+
+.place2 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 8.png"), lightgray 50% / cover no-repeat;
+    width: 573px;
+    height: 300px;
+}
+
+.place3 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
+    width: 374px;
+    height: 286px;
+}
+
+.place4 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 7.png"), lightgray 50% / cover no-repeat;
+    width: 474px;
+    height: 286px;
+}
+
+.place5 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 9.png"), lightgray 50% / cover no-repeat;
+    width: 274px;
+    height: 286px;
+}
+
+.place6 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
+    width: 473px;
+    height: 300px;
+}
+
+.place7 {
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
+    width: 673px;
+    height: 300px;
+}
+
+.place p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 0;
 }
